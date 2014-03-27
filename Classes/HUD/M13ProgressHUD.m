@@ -295,7 +295,7 @@
 - (void)show:(BOOL)animated
 {
     //reset the blurs to the curent screen if need be
-    [self registerForNotificationCenter];
+    
     [self setNeedsLayout];
     [self setNeedsDisplay];
 
